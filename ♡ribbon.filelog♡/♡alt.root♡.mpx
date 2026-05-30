@@ -1,0 +1,16 @@
+:root {
+--bg-main: #51536E;
+--bg-secondary: #76728F;
+--bg-soft: #B29DB0;
+--accent-pink: #D8B7C7;
+
+--text-main: #E6D1DC;
+--text-dark: #3F3A4F;
+
+--glow-pink: rgba(216,183,199,0.7);
+--glow-lilac: rgba(178,157,176,0.6);
+
+--accent-heart: #CFA3B8;
+--border-soft: #9A86A0;
+--shadow-deep: rgba(40,38,60,0.6);
+}

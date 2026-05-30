@@ -1,0 +1,154 @@
+:root {
+
+  /* =========================
+     BACKGROUND LAYER
+  ========================== */
+  --bg-dark: #140016;
+  --bg-light: #ffe4ec;
+
+  /* =========================
+     PANEL SYSTEM
+  ========================== */
+  --panel-dark: #1d0022;
+  --panel-soft: #2a004d;
+  --panel-light: #fff0f6;
+  --panel-glass: rgba(29, 0, 34, 0.65);
+
+  /* =========================
+     ACCENT SYSTEM
+  ========================== */
+  --accent-dark: #c77aa8;
+  --accent-light: #e6a8c8;
+
+  --accent-sakura-mist: #fdd9d9;
+  --accent-blush-white: #FDF7F9;
+  --accent-misty-petal: #D8B9D4;
+  --accent-whisper-pink: #F7E1F3;
+  
+  --accent-hover: #FFC2CC;
+  --accent-active: #EAA6B2;
+  
+  --accent-soft: #FAD9DF;
+
+  --accent-heart: #ffd1e6;
+  --accent-melody: #fce6f5;
+  --accent-ribbon: #ffbbdc;
+
+  /* =========================
+     TEXT SYSTEM
+  ========================== */
+  --text-dark: #f6cfe3;
+  --text-light: #5a2a3c;
+  --text-muted: rgba(246, 207, 227, 0.65);
+
+  /* =========================
+     BORDERS
+  ========================== */
+  --border-hover: #ff69b4;
+  --border-soft: rgba(230, 168, 200, 0.25);
+  --border-strong: rgba(199, 122, 168, 0.4);
+
+  /* =========================
+     SHADOWS / GLOWS
+  ========================== */
+  --shadow-base: rgba(0, 0, 0, 0.1);
+  --shadow-hover: rgba(0, 0, 0, 0.2);
+
+  --shadow-soft: 0 0 15px rgba(199, 122, 168, 0.15);
+  --shadow-glow: 0 0 25px rgba(199, 122, 168, 0.35);
+
+  --glow: rgba(199, 122, 168, 0.3);
+  --glow-strong: rgba(230, 168, 200, 0.45);
+  --effect-glow: rgba(255, 182, 193, 0.5);
+
+  /* =========================
+     STATE COLORS
+  ========================== */
+  --state-success: #fce6f5;
+  --state-warning: #fdd9d9;
+  --state-error: #c77aa8;
+  --state-info: #ffd1e6;
+
+  /* =========================
+     SPACING SYSTEM
+  ========================== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* =========================
+     RADIUS SYSTEM
+  ========================== */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+
+  /* =========================
+     TRANSITIONS
+  ========================== */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 320ms ease;
+
+  /* =========================
+     SHAPE SYSTEM
+  ========================== */
+  --shape-squircle: path("M20,0 C8,0 0,8 0,20 C0,32 8,40 20,40 C32,40 40,32 40,20 C40,8 32,0 20,0 Z");
+
+  /* =========================
+     EFFECT LAYERS
+  ========================== */
+  --blur-glass: blur(14px);
+  --blur-soft: blur(8px);
+  
+  /* =========================
+     BACKDROP EFFECTS
+  ========================== */
+
+--backdrop-glass-dark: rgba(29, 0, 34, 0.55);
+--backdrop-glass-light: rgba(255, 228, 236, 0.55);
+
+--backdrop-sakura-soft: rgba(253, 217, 217, 0.35);
+--backdrop-sakura-glow: rgba(253, 217, 217, 0.22);
+
+--backdrop-petal-fade: rgba(230, 168, 200, 0.18);
+--backdrop-heart-haze: rgba(255, 182, 193, 0.25);
+
+--backdrop-overlay-dim: rgba(0, 0, 0, 0.35);
+--backdrop-overlay-soft: rgba(0, 0, 0, 0.15);
+
+--backdrop-blur-sm: blur(6px);
+--backdrop-blur-md: blur(12px);
+--backdrop-blur-lg: blur(18px);
+
+--backdrop-glow-soft: 0 0 25px rgba(199, 122, 168, 0.25);
+--backdrop-glow-sakura: 0 0 30px rgba(253, 217, 217, 0.35);
+
+
+  /* =========================
+     Z-INDEX SYSTEM
+  ========================== */
+  --z-base: 1;
+  --z-floating: 10;
+  --z-overlay: 100;
+  --z-modal: 1000;
+  --z-tooltip: 2000;
+
+  /* =========================
+     SCROLLBAR (THICK KAWAII STYLE)
+  ========================== */
+  --scrollbar-width: 12px;
+  --scrollbar-track: #ffe4ec;
+  --scrollbar-thumb: #c77aa8;
+  --scrollbar-thumb-hover: #ff69b4;
+
+}
